@@ -1,0 +1,36 @@
+.app__products{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+
+    background: var(--background-color);
+}
+
+.app__products-heading{
+    text-align: center;
+}
+
+.app__products-heading h2{
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.app__products-heading p{
+    color: var(--text-color);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.app__products-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__products-container{
+        flex-wrap: wrap;
+        padding: 0 1rem;
+    }
+}

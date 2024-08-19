@@ -1,0 +1,63 @@
+.app__tracking-content{
+    background: var(--background-color);
+    padding: 3rem 5rem;
+}
+
+.app__tracking-content h2{
+    color: var(--color-grey);
+    font-size: 13px;
+}
+
+.app__tracking-form{
+    border: 2px solid var(--color-white);
+    margin-top: .8rem;
+    padding: 50px;
+}
+
+.app__tracking-input{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.app__tracking-input label{
+    width: 100px;
+    color: var(--color-gray);
+}
+
+.app__tracking-input input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.track-btn{
+    border: none;
+    background: #28282B;
+    color: var(--color-white);
+    padding: 20px 40px;
+    margin-left: 8rem;
+}
+
+@media screen and (max-width: 650px) {
+    .app__tracking-form{
+        margin-top: 2rem;
+    }
+
+    .app__tracking-input{
+        flex-wrap: wrap;
+    }
+
+    .app__tracking-input input{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .track-btn{
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}

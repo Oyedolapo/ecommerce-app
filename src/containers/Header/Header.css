@@ -1,0 +1,29 @@
+.carousel-item img{
+    display: block;
+    object-fit: cover;
+    height: 70vh;
+}
+
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #28282B;
+    padding-bottom: 2rem;
+}
+
+.carousel-caption h3{
+    font-size: 45px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .carousel-caption h3, .carousel-caption p{
+        color: #F5F5DC;
+    }
+
+    .carousel-caption p{
+        font-size: 18px;
+    }
+
+}

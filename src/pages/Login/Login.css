@@ -1,0 +1,26 @@
+.app__login{
+    background: var(--background-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem;
+}
+
+.app__login-heading{
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+
+.app__login-heading h3{
+    color: var(--color-offWhite);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.app__login-heading h3:hover{
+    color: var(--color-gray);
+}

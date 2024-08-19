@@ -1,0 +1,51 @@
+.app__gallery{
+    background: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    /* max-width: 100%; */
+}
+
+.app__gallery-img img{
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.sneakers-img, .model-img{
+    position: relative;
+    flex: 1;
+}
+
+.sneakers-img img{
+    width: 250px;
+    height: 300px;
+}
+
+.model-img img{
+    width: 400px;
+    height: 700px;
+}
+
+.sneakers-box, .model-box{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+    background: var(--background-color);
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    padding: 10px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .sneakers-img img{
+        margin-bottom: 1rem;
+    }
+
+    .model-img img{
+        width: 350px;
+        height: 350px;
+    }
+}

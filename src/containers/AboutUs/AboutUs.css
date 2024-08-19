@@ -1,0 +1,62 @@
+.app__aboutUs{
+    width: 100%;
+    background: var(--color-gray);
+    padding: 2.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__aboutUs-text{
+    width: 45%;
+}
+
+.app__aboutUs-text h4, .app__aboutUs-address h4{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.app__aboutUs-text p{
+    font-size: 20px;
+}
+
+.app__aboutUs-address h4{
+    text-align: right;
+}
+
+.app__aboutUs-address p{
+    font-size: 27px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__aboutUs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__aboutUs-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .app__aboutUs-text p{
+        margin-bottom: 2rem;
+    }
+
+    .app__aboutUs-address{
+        width: 100%;
+    }
+
+    .app__aboutUs-address h4{
+        text-align: center;
+    }
+    
+    .app__aboutUs-address p{
+        font-size: 25px;
+        text-align: center;
+    }
+}

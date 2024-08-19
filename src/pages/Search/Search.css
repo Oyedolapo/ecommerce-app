@@ -1,0 +1,13 @@
+.app__search{
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.app__search input{
+    width: 70%;
+    height: 60px;
+    outline: none;
+    padding: 10px;
+}

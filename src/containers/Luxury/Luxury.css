@@ -1,0 +1,43 @@
+.app__luxury{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--background-color);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.app__luxury-heading{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.app__luxury-heading h2{
+    font-weight: 400;
+}
+
+.app__luxury-heading p{
+    padding-top: .6rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.app__luxury-heading p:hover{
+    color: #808080;
+}
+
+.app__luxury-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    gap: 2rem;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .app__luxury{
+        padding-top: 5rem;
+    }
+}
